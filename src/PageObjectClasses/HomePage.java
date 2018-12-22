@@ -19,19 +19,7 @@ public class HomePage extends HomePageRepo{
 	}
 
 	public void clickOncreateNewAccountLink() {
-		//reference http://www.seleniumeasy.com/selenium-tutorials/synchronization-in-selenium-webdriver
-		/*Wait<WebDriver> wait = new FluentWait<>(driver)
-					//Wait for the condition
-			       .withTimeout(10, TimeUnit.SECONDS) 
-			         // which to check for the condition with interval of 5 seconds. 
-			       .pollingEvery(5, TimeUnit.SECONDS) 
-			       //Which will ignore the NoSuchElementException
-			       .ignoring(NoSuchElementException.class)
-			       //will ignore illegal state Exception
-			       .ignoring(IllegalStateException.class)
-			       //send out string messages
-			       .withMessage("will wait 5 secs");
-		wait.until(ExpectedConditions.presenceOfElementLocated(createNewAccountLink)).click();*/
+		
 		driver.close();
 		//driver.findElement(createNewAccountLink).click();
 	}

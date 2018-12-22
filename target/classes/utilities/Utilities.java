@@ -26,7 +26,8 @@ public class Utilities {
 	}
 	
 	public void closeBrowser() {
-		driver.close();
+		webDriverWait=new WebDriverWait(driver, 3,100);
+		this.driver.quit();
 	}
 	public void LoginInfo(Map<String, String> map) {
 		// TODO Auto-generated method stub

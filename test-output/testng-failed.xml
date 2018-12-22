@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="startRow" value="1"/>
   <parameter name="csvFile" value="src/testdata/csvData.csv"/>
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="firefox"/>
   <parameter name="endRow" value="1"/>
   <test name="Test(failed)">
     <classes>

@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.DataProvider;
 
 import PageObjectClasses.LoginPage;
@@ -43,12 +44,15 @@ public class BaseClass {
 			options.addArguments("--headless");
 			options.addArguments("--disable-gpu");
 			options.addArguments("excludeSwitches");
-			options.addArguments("ignore-certificate-errors");
-			
+			options.addArguments("ignore-certificate-errors");			
 			driver = new ChromeDriver(options);
 
 			break;
-
+		case "firefox":
+			System.setProperty("webdriver.gecko.driver", "src/drivers/geckodriver.exe");
+			driver= new FirefoxDriver();
+			
+			
 		default:
 			break;
 

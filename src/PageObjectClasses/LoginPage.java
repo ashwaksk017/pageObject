@@ -27,7 +27,7 @@ public class LoginPage extends LoginPageObjRepo {
 	public HomePage Login(Map<String, String> map) {
 
 		Utilities util= new Utilities(driver);
-		util.LoginInfo(map);
+		/*
 		util.fillInTextInfo(username,"mngr167177");
 		util.fillInTextInfo(password,"Ugyhugu");
 		util.click(passNext);
@@ -37,8 +37,8 @@ public class LoginPage extends LoginPageObjRepo {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		util.click(logOut);
-		util.closeBrowser();
+		util.click(logOut);*/
+		
 		
 		return new HomePage(driver);
 	}
