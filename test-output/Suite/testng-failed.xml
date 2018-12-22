@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="startRow" value="1"/>
+  <parameter name="csvFile" value="C:/Users/aswak kamalasanan/Documents/Aswak/PageObjectModel/PageObjectsConcepts/src/resources/csvData"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="endRow" value="1"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testClasses.CreateNewAccount">
+        <methods>
+          <include name="createNewAccountFromHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testClasses.CreateNewAccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
