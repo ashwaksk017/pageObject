@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="startRow" value="1"/>
   <parameter name="csvFile" value="src/testdata/csvData.csv"/>
   <parameter name="browser" value="chrome"/>

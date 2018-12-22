@@ -38,7 +38,7 @@ public class LoginPage extends LoginPageObjRepo {
 			e.printStackTrace();
 		}
 		util.click(logOut);
-		driver.close();
+		util.closeBrowser();
 		
 		return new HomePage(driver);
 	}

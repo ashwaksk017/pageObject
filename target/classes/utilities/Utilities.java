@@ -24,6 +24,10 @@ public class Utilities {
 		webDriverWait=new WebDriverWait(driver, 3,100);
 		webDriverWait.until(ExpectedConditions.presenceOfElementLocated(path)).click();
 	}
+	
+	public void closeBrowser() {
+		driver.close();
+	}
 	public void LoginInfo(Map<String, String> map) {
 		// TODO Auto-generated method stub
 		
