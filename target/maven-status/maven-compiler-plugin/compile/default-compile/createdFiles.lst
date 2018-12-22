@@ -1,10 +1,10 @@
-testClasses\TestngMain.class
-testClasses\CreateNewAccount.class
 utilities\PropertiesManager.class
-ObjectRepo\LoginPageObjRepo.class
 PageObjectClasses\LoginPage.class
-utilities\Utilities.class
 ObjectRepo\HomePageRepo.class
-PageObjectClasses\HomePage.class
 utilities\BaseClass.class
 utilities\utilitiesEnum.class
+testClasses\TestngMain.class
+testClasses\CreateNewAccount.class
+ObjectRepo\LoginPageObjRepo.class
+utilities\Utilities.class
+PageObjectClasses\HomePage.class

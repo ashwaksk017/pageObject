@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+ <parameter name="browser" value="chrome"></parameter>
+  <parameter name="endRow" value="1"></parameter>
+  <parameter name="startRow" value="1"></parameter>
+  <parameter name="csvFile" value="csvData"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="testClasses.CreateNewAccount"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

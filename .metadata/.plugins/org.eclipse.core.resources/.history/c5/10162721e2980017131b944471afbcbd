@@ -1,0 +1,19 @@
+package com.ascena;
+
+import java.util.ArrayList;
+
+public class CheckCollections {
+
+	public static void main(String[] args) {
+		/*ArrayList<String> tes= new ArrayList<>();
+		tes.add("2");
+		tes.add("3");
+		for (int i = 0; i < tes.size(); i++) {
+			System.out.println(tes.get(i));
+		}*/
+		
+		
+
+	}
+
+}

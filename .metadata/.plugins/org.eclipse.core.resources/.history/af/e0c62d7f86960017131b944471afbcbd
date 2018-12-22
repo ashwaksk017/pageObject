@@ -1,0 +1,21 @@
+package com.ascena;
+
+import org.testng.annotations.Test;
+
+public class Ascena {
+	
+	@Test(groups= {"priority1"})
+	public void fromAscenapriority1() {
+		System.out.println("I am from Ascena Priority1");
+	}
+	
+	@Test(groups= {"regression"})
+	public void fromAscenaRegression() {
+		System.out.println("I am from Ascena regression");
+	}
+	
+	@Test(groups= {"bvt"})
+	public void fromAscenabvt() {
+		System.out.println("I am from Ascena bvt");
+	}
+}

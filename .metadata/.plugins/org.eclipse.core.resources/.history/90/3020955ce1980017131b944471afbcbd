@@ -1,0 +1,7 @@
+package com.ascena;
+
+public class Collections {
+	public void collections() {
+		
+	}
+}

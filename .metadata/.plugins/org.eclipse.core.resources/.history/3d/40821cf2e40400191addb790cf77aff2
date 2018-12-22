@@ -1,0 +1,13 @@
+package ObjectRepo;
+
+import org.openqa.selenium.By;
+
+public class LoginPageObjRepo {
+
+	protected  By username= By.xpath("//input[@name='uid']");
+	protected By userNext=By.xpath("//*[@id=\"identifierNext\"]/content/span");
+	protected  By password= By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input");
+	protected By passNext=By.xpath("//*[@id=\"passwordNext\"]/content/span");
+	//protected  By submit= By.xpath("//input[@value=\"LOGIN\"]");
+	
+}

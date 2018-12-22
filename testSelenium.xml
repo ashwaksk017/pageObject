@@ -3,7 +3,7 @@
  <parameter name="browser" value="chrome"></parameter>
   <parameter name="endRow" value="1"></parameter>
   <parameter name="startRow" value="1"></parameter>
-  <parameter name="csvFile" value="C:/Users/aswak kamalasanan/Documents/Aswak/PageObjectModel/PageObjectsConcepts/src/resources/csvData"></parameter>
+  <parameter name="csvFile" value="src/testdata/csvData.csv"></parameter>
   <test name="Test">
     <classes>
       <class name="testClasses.CreateNewAccount"/>
